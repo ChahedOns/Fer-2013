@@ -1,0 +1,272 @@
+[data-testid=metric-container] {
+    box-shadow: 0 0 4px #cccccc;
+    padding: 10px;
+}
+
+.plot-container>div {
+    box-shadow: 0 0 4px #cccccc;
+    padding: 10px;
+    
+   
+}
+
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+/* Add this to style.css */
+
+/* Style for Emotion Images section */
+.emotion-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Style for Description card */
+.card.description {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Style for Learn More button */
+.button-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for Model Details and Model Insights cards */
+.card.model-details,
+.card.model-insights-table {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.sidebar a:hover {
+    color: #007bff;
+}
+
+/* Main Content Styles */
+.content {
+    padding: 20px;
+}
+
+/* Welcome Page Styles */
+.emotion-images img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Model Details Styles */
+.model-details {
+    margin-top: 20px;
+}
+
+/* Model Insights Table Styles */
+.model-insights-table {
+    margin-top: 20px;
+}
+
+/* Predict Emotion Styles */
+.predict-emotion {
+    margin-top: 20px;
+}
+
+.result {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #28a745;
+}
+/* Button Styles */
+.button-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Card Styles */
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.model-details {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.model-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.model-details th, .model-details td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.model-details th {
+    background-color: #007bff;
+    color: #fff;
+}
+.insights-table {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.insights-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.insights-table th, .insights-table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.insights-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+.model-details-container {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.section-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+.sub-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+i {
+    margin-right: 8px;
+}
+.centered-header h1:before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+}
+.overview::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+}
+.steps::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+}
+.tips::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+}
+.objectives::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+}
+.components::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+}
+.technologies::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+}
+.conclusion::before {
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+}
